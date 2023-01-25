@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+	Home
+{% endblock %}
+
+{% block content %}
+	<div class="container-fluid">
+		<div class="row">
+			<img src="{% static 'image/screan.png' %}" class="img-fluid rounded-top">
+		</div>		
+	</div>
+	<div class="py-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-10 mx-auto my-2 text-center">
+					<h1 class="text-capitalize font-weight-bolt">
+						Our products
+					</h1>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+{% endblock %}
